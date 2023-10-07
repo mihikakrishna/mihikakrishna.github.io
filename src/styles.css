@@ -81,3 +81,20 @@ body {
   color: #a5aee8;
   background-color: #d0d6fc;
 }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; 
+  width: 100%;
+}
+
+.fade-in-out {
+  opacity: 0;
+  transition: opacity 0.5s;
+  display: block;
+  margin: 20px;
+  margin-bottom: 20px;
+}
+
