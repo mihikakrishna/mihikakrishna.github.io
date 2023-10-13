@@ -40,7 +40,9 @@ body {
   box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
   width: 100px;
   text-align: center;
-  color:rgb(172, 157, 176)
+.nav-link {
+  padding: 5px 5px;
+  display: inline-block;
 }
 
 .nav-link a {
