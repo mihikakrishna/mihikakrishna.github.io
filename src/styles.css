@@ -4,7 +4,8 @@
 
 body {
   margin: 0;
-  background-color:#f4f6f6
+  background-color:#f4f6f6;
+  font-family: 'Arial';
 }
 
 .container {
@@ -96,5 +97,26 @@ body {
   display: block;
   margin: 20px;
   margin-bottom: 20px;
+}
+
+.glassmorphism-effect .vertical-timeline-element-content {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 15px;
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 4px 6px 0 rgba(31, 38, 135, 0.37);
+}
+
+.vertical-timeline-element-content-arrow {
+  opacity: 0%
+}
+
+p,
+.vertical-timeline-element-title,
+.vertical-timeline-element-date,
+.vertical-timeline-element-subtitle {
+  color: #d4c7ec;
+  font-family: 'Arial';
 }
 
