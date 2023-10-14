@@ -16,7 +16,6 @@ export default function Home() {
             <SocialIcon url="https://github.com/mihikakrishna" target="_blank" bgColor="#fff" fgColor="#8445f7" style={{ height: 35, width: 35, marginRight: '10px'}} />
             <SocialIcon url="https://linkedin.com/in/mihika-krishna/" target="_blank" bgColor="#fff" fgColor="#8445f7" style={{ height: 35, width: 35, marginRight: '10px' }} />
             <SocialIcon url="mailto:krishna.mihika@gmail.com" target="_blank" bgColor="#fff" fgColor="#8445f7" style={{ height: 35, width: 35, marginRight: '10px' }} />
-            {/* You can add more social icons similarly here */}
           </div>       
       </div>
   );

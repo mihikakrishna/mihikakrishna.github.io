@@ -70,32 +70,21 @@ body {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px 0px inset;
 }
 
+.nav-link.active.home {
+  color: #89a4a9;
+  background-color: #dcf0f2;
+}
 
-/* Active button styles for the Home page */
 .nav-link.active.about {
   background-color: rgb(242, 187, 227);
   color: rgb(188, 130, 177);
 }
 
-/* Active button styles for the Skills page */
-.nav-link.active.skills {
-  color: #89a4a9;
-  background-color: #dcf0f2;
-}
-
-/* Active button styles for the Education page */
-.nav-link.active.education {
+.nav-link.active.experience {
   color: #7bc187;
   background-color: #a5e5af;
 }
 
-/* Active button styles for the Experience page */
-.nav-link.active.experience {
-  color: #c3c59b;
-  background-color: #f0f2bd;
-}
-
-/* Active button styles for the Projects page */
 .nav-link.active.projects {
   color: #a5aee8;
   background-color: #d0d6fc;
