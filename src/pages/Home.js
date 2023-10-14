@@ -10,6 +10,7 @@ export default function Home() {
             className="typewriter" 
             style={{ color: '#d4c7ec', fontSize: '200%' }} 
           />
+          <h4>Computer Science and Engineering student at UC Davis <br></br>& aspiring software engineer</h4>
           <div className="container">
             <FadingImage src="sample.jpeg" alt="sample_image_3" />
             <FadingImage src="sample.jpeg" alt="sample_image_1" />
