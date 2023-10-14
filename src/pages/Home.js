@@ -1,5 +1,5 @@
 import React from 'react';
-import FadingImage from '../components/FadingImage';
+import { SocialIcon } from 'react-social-icons';
 import Typewriter from '../components/Typewriter';
 
 export default function Home() {
@@ -11,12 +11,13 @@ export default function Home() {
             style={{ color: '#d4c7ec', fontSize: '200%' }} 
           />
           <h4>Computer Science and Engineering student at UC Davis <br></br>& aspiring software engineer</h4>
-          <div className="container">
-            <FadingImage src="sample.jpeg" alt="sample_image_3" />
-            <FadingImage src="sample.jpeg" alt="sample_image_1" />
-            <FadingImage src="sample.jpeg" alt="sample_image_2" />
-            <FadingImage src="sample.jpeg" alt="sample_image_3" />
-          </div>
+
+          <div className="social-icons">
+            <SocialIcon url="https://github.com/mihikakrishna" target="_blank" bgColor="#fff" fgColor="#8445f7" style={{ height: 35, width: 35, marginRight: '10px'}} />
+            <SocialIcon url="https://linkedin.com/in/mihika-krishna/" target="_blank" bgColor="#fff" fgColor="#8445f7" style={{ height: 35, width: 35, marginRight: '10px' }} />
+            <SocialIcon url="mailto:krishna.mihika@gmail.com" target="_blank" bgColor="#fff" fgColor="#8445f7" style={{ height: 35, width: 35, marginRight: '10px' }} />
+            {/* You can add more social icons similarly here */}
+          </div>       
       </div>
   );
 }
