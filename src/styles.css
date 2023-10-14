@@ -95,8 +95,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center; 
+  height: 100%;
   width: 100%;
-  margin: 1rem;
   text-align: center;
   color: #bebebe;
 }
@@ -160,4 +160,14 @@ p,
   border-right: .10em solid #d4c7ec; /* Caret */
   white-space: nowrap;
   animation: blink-caret .75s step-end infinite;
+}
+
+.thumbs-wrapper.axis-vertical {
+  display: none;
+}
+
+.carousel-root {
+  max-width: 400px;
+  max-height: 400px;
+  margin: 0 auto;
 }
