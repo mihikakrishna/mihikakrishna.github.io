@@ -1,3 +1,5 @@
+@import "~fullpage.js/dist/fullpage.min.css";
+
 * {
   box-sizing: border-box;
 }
@@ -30,6 +32,7 @@ body {
   gap: 0.25rem;
   padding: 1rem;
 }
+
 
 .nav-link {
   color: #bebebe;

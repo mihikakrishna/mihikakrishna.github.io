@@ -6,11 +6,11 @@ export default function Home() {
   return (
       <div>
           <Typewriter 
-            text="Hello World, I'm Mihika !" 
+            text="Hello World, I'm Mihika!" 
             className="typewriter" 
-            style={{ color: '#d4c7ec', fontSize: '200%' }} 
+            style={{ color: '#d4c7ec', fontSize: '200%', letterSpacing: '1px'}} 
           />
-          <h4>Computer Science and Engineering student at UC Davis <br></br>& aspiring software engineer</h4>
+          <h4 style={{ letterSpacing: '1px'}}>Computer Science and Engineering student at UC Davis <br></br>& aspiring software engineer</h4>
 
           <div className="social-icons">
             <SocialIcon url="https://github.com/mihikakrishna" target="_blank" bgColor="#fff" fgColor="#8445f7" style={{ height: 35, width: 35, marginRight: '10px'}} />
