@@ -4,13 +4,13 @@
 
 @font-face {
   font-family: 'Pixelify Sans';
-  src: url('./assets/PixelifySans-Regular.ttf') format('truetype');
+  src: url('./assets/fonts/PixelifySans-Regular.ttf') format('truetype');
   font-weight: normal; /* This is typically 400 */
 }
 
 @font-face {
   font-family: 'Pixelify Sans';
-  src: url('./assets/PixelifySans-Bold.ttf') format('truetype');
+  src: url('./assets/fonts/PixelifySans-Bold.ttf') format('truetype');
   font-weight: bold; /* This is typically 700 */
 }
 
@@ -108,7 +108,7 @@ body {
 
 .container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center; 
   width: 100%;
