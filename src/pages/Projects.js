@@ -1,7 +1,6 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import carousel styles
-
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import Btree from '../assets/images/btree.png';
 import GpaAalysis from '../assets/images/davis-gpa-analysis.png';
 import HealthTracker from '../assets/images/health-tracker-project.png';
@@ -15,25 +14,34 @@ export default function Projects() {
       <Carousel>
         <div>
           <img src={HealthTracker} alt="Health Tracker Project" width="400px" height="400px" />
-          <p className="legend">Legend 1</p>
+          <a href="https://github.com/mihikakrishna/HealthTracker" target="_blank" rel="noopener noreferrer">
+            <p className="legend">Source Code</p>
+          </a>
         </div>
         <div>
           <img src={HandGestureRecognizer} alt="Hand Gesture Recognizer Project" width="400px" height="400px" />
-          <p className="legend">Legend 1</p>
+          <a href="https://github.com/mihikakrishna/Hand-Gesture-Recognizer" target="_blank" rel="noopener noreferrer">
+            <p className="legend">Source Code</p>
+          </a>
         </div>
         <div>
-            <img src={Btree} alt="Btree Project" width="400px" height="400px"/>
-            <p className="legend">Legend 1</p>
+          <img src={Btree} alt="Btree Project" width="400px" height="400px"/>
+          <a href="https://github.com/mihikakrishna/Btree" target="_blank" rel="noopener noreferrer">
+            <p className="legend">Source Code</p>
+          </a>
         </div>
         <div>
           <img src={GpaAalysis} alt="Davis GPA Analysis Project" width="400px" height="400px" />
-          <p className="legend">Legend 1</p>
+          <a href="https://github.com/mihikakrishna/UC-Davis-GPA-Analysis-Tool" target="_blank" rel="noopener noreferrer">
+            <p className="legend">Source Code</p>
+          </a>
         </div>
         <div>
           <img src={SlidingPuzzle} alt="Sliding Puzzle Project" width="400px" height="400px" />
-          <p className="legend">Legend 1</p>
+          <a href="https://github.com/mihikakrishna/sliding-puzzle" target="_blank" rel="noopener noreferrer">
+            <p className="legend">Source Code</p>
+          </a>
         </div>
-        {/* Add more carousel items as needed */}
       </Carousel>
     </div>
   );
