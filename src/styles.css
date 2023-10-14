@@ -170,7 +170,7 @@ p,
 
 .typewriter {
   overflow: hidden;
-  border-right: .15em solid #d4c7ec; /* Caret */
+  border-right: .10em solid #d4c7ec; /* Caret */
   white-space: nowrap;
   animation: blink-caret .75s step-end infinite;
 }
