@@ -1,48 +1,75 @@
-import React from 'react';
-import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import React, { useEffect } from "react";
 import Btree from '../assets/images/btree.png';
 import GpaAalysis from '../assets/images/davis-gpa-analysis.png';
 import HealthTracker from '../assets/images/health-tracker-project.png';
 import SlidingPuzzle from '../assets/images/sliding-puzzle-project.png';
 import HandGestureRecognizer from '../assets/images/hand-gesture-project.png';
 
+const ProjectSection = ({ image, altText, href, description, backgroundColor }) => (
+  <div className="section" style={{ backgroundColor: backgroundColor }}>
+    <div className="section-content">
+      <img src={image} alt={altText} />
+    </div>
+    <p>{description}</p>
+    <a href={href} target="_blank" rel="noopener noreferrer" className="source-link">
+      <p className="legend">Source Code</p>
+    </a>
+  </div>
+);
+
+
+
 export default function Projects() {
+  useEffect(() => {
+    const handleScroll = () => {
+      const innerDiv = document.querySelector(".parallax-inner");
+      const scrolledValue = window.scrollY;
+      innerDiv.style.transform = `translate3d(0, ${scrolledValue * 0.5}px, 0)`;
+    };
+    
+    window.addEventListener("scroll", handleScroll);
+    
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <div>
-      <h1>Projects</h1>
-      <Carousel>
-        <div>
-          <img src={HealthTracker} alt="Health Tracker Project" width="400px" height="400px" />
-          <a href="https://github.com/mihikakrishna/HealthTracker" target="_blank" rel="noopener noreferrer">
-            <p className="legend">Source Code</p>
-          </a>
-        </div>
-        <div>
-          <img src={HandGestureRecognizer} alt="Hand Gesture Recognizer Project" width="400px" height="400px" />
-          <a href="https://github.com/mihikakrishna/Hand-Gesture-Recognizer" target="_blank" rel="noopener noreferrer">
-            <p className="legend">Source Code</p>
-          </a>
-        </div>
-        <div>
-          <img src={Btree} alt="Btree Project" width="400px" height="400px"/>
-          <a href="https://github.com/mihikakrishna/Btree" target="_blank" rel="noopener noreferrer">
-            <p className="legend">Source Code</p>
-          </a>
-        </div>
-        <div>
-          <img src={GpaAalysis} alt="Davis GPA Analysis Project" width="400px" height="400px" />
-          <a href="https://github.com/mihikakrishna/UC-Davis-GPA-Analysis-Tool" target="_blank" rel="noopener noreferrer">
-            <p className="legend">Source Code</p>
-          </a>
-        </div>
-        <div>
-          <img src={SlidingPuzzle} alt="Sliding Puzzle Project" width="400px" height="400px" />
-          <a href="https://github.com/mihikakrishna/sliding-puzzle" target="_blank" rel="noopener noreferrer">
-            <p className="legend">Source Code</p>
-          </a>
-        </div>
-      </Carousel>
+    <div className="parallax-container">
+      <nav className="sticky-nav"></nav>
+      <div className="parallax-inner">
+        <ProjectSection 
+          image={HealthTracker} 
+          altText="Health Tracker Project" 
+          href="https://github.com/mihikakrishna/HealthTracker" 
+          description="A comprehensive health tracker for individuals."
+          backgroundColor="#57e2e5"
+        />
+        <ProjectSection 
+          image={HandGestureRecognizer} 
+          altText="Hand Gesture Recognizer Project" 
+          href="https://github.com/mihikakrishna/Hand-Gesture-Recognizer" 
+          backgroundColor="#e08dac"
+        />
+        <ProjectSection 
+          image={Btree} 
+          altText="Btree Project" 
+          href="https://github.com/mihikakrishna/Btree"
+          backgroundColor="#6a7fdb"
+        />
+        <ProjectSection 
+          image={GpaAalysis} 
+          altText="Davis GPA Analysis Project" 
+          href="https://github.com/mihikakrishna/UC-Davis-GPA-Analysis-Tool" 
+          backgroundColor="#45cb85"
+        />
+        <ProjectSection 
+          image={SlidingPuzzle} 
+          altText="Sliding Puzzle Project" 
+          href="https://github.com/mihikakrishna/sliding-puzzle" 
+          backgroundColor="#153131"
+        />
+      </div>
     </div>
   );
 }

@@ -16,10 +16,12 @@
 }
 
 body {
+  height:100%;
   margin: 0;
   background-color: #f4f6f6;
   font-family: 'Pixelify Sans', sans-serif;
 }
+
 
 
 
@@ -90,6 +92,12 @@ body {
 .nav-link.active.projects {
   color: #a5aee8;
   background-color: #d0d6fc;
+}
+
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
 }
 
 .container {
@@ -172,4 +180,37 @@ p,
   max-width: 400px;
   max-height: 400px;
   margin: 0 auto;
+}
+
+.parallax-container {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.parallax-inner {
+  transform-style: preserve-3d;
+  height: 500vh;
+}
+
+.section {
+  height: 100vh;       /* Takes up the full viewport height */
+  width: 100vw;        /* Takes up the full viewport width */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section img {
+  width: 500px; /* adjust as needed */
+  height: 500px;
+  margin-right: 20px; /* space between image and the box */
+}
+
+.section-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
