@@ -1,4 +1,3 @@
-// Typewriter.js
 import React, { useRef, useEffect } from 'react';
 
 function Typewriter({ text, style = {}, ...props }) {

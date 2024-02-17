@@ -10,6 +10,32 @@ export function Timeline() {
     return (
         <VerticalTimeline layout="1-column">
             <VerticalTimelineElement
+                className="vertical-timeline-element--education glassmorphism-effect"
+                date="2020 - 2024"
+                iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+                icon={<SchoolIcon />}
+            >
+                <h3 className="vertical-timeline-element-title">University of California, Davis</h3>
+                <h4 className="vertical-timeline-element-subtitle">Bachelor of Science</h4>
+                <p>
+                    Computer Science and Engineering
+                </p>
+            </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work glassmorphism-effect"
+                date="2022 - Present"
+                iconStyle={{ background: '#6d60e0', color: '#fff' }}
+                icon={<WorkIcon />}
+            >
+                <h3 className="vertical-timeline-element-title">Student Researcher</h3>
+                <h4 className="vertical-timeline-element-subtitle">Joseph Lab at UC Davis</h4>
+                <p>
+                    Davis, CA
+                </p>
+            </VerticalTimelineElement>
+
+            <VerticalTimelineElement
                 className="vertical-timeline-element--work glassmorphism-effect"
                 date="Summer 2023"
                 iconStyle={{ background: '#6d60e0', color: '#fff'}}
@@ -32,32 +58,6 @@ export function Timeline() {
                 <h4 className="vertical-timeline-element-subtitle">Relativity</h4>
                 <p>
                     Chicago, Illinois
-                </p>
-            </VerticalTimelineElement>
-
-            <VerticalTimelineElement
-                className="vertical-timeline-element--work glassmorphism-effect"
-                date="2022 - Present"
-                iconStyle={{ background: '#6d60e0', color: '#fff' }}
-                icon={<WorkIcon />}
-            >
-                <h3 className="vertical-timeline-element-title">Web Developer and Data Analyst</h3>
-                <h4 className="vertical-timeline-element-subtitle">Joseph Lab at UC Davis</h4>
-                <p>
-                    Davis, CA
-                </p>
-            </VerticalTimelineElement>
-
-            <VerticalTimelineElement
-                className="vertical-timeline-element--education glassmorphism-effect"
-                date="2020 - 2024"
-                iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-                icon={<SchoolIcon />}
-            >
-                <h3 className="vertical-timeline-element-title">University of California, Davis</h3>
-                <h4 className="vertical-timeline-element-subtitle">Bachelor of Science</h4>
-                <p>
-                    Computer Science and Engineering
                 </p>
             </VerticalTimelineElement>
 
