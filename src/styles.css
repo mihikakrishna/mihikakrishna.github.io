@@ -214,3 +214,37 @@ p,
   align-items: center;
   justify-content: center;
 }
+
+.section a {
+    display: block;
+    text-align: center;
+    position: relative;
+  }
+  
+  .section a img {
+    transition: opacity 0.5s;
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .section a:hover .description {
+    opacity: 1;
+  }
+  
+  .description {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent overlay */
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+    pointer-events: none;
+  }
+  
