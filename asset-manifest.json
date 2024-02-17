@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.14cb4e60.css",
-    "main.js": "/static/js/main.49e1a3b3.js",
+    "main.js": "/static/js/main.d208dcf5.js",
     "static/media/davis-gpa-analysis.png": "/static/media/davis-gpa-analysis.38a19abce7ebf6bdc513.png",
     "static/media/PixelifySans-Regular.ttf": "/static/media/PixelifySans-Regular.78dfe66b4f31904f6ee9.ttf",
     "static/media/PixelifySans-Bold.ttf": "/static/media/PixelifySans-Bold.cf9b3ee7c9f1c551e244.ttf",
@@ -10,10 +10,10 @@
     "static/media/hand-gesture-project.png": "/static/media/hand-gesture-project.6b410bf47b1819ac9c32.png",
     "index.html": "/index.html",
     "main.14cb4e60.css.map": "/static/css/main.14cb4e60.css.map",
-    "main.49e1a3b3.js.map": "/static/js/main.49e1a3b3.js.map"
+    "main.d208dcf5.js.map": "/static/js/main.d208dcf5.js.map"
   },
   "entrypoints": [
     "static/css/main.14cb4e60.css",
-    "static/js/main.49e1a3b3.js"
+    "static/js/main.d208dcf5.js"
   ]
 }
