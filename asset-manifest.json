@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.e32425fb.css",
-    "main.js": "/static/js/main.6e4b4653.js",
+    "main.css": "/static/css/main.14cb4e60.css",
+    "main.js": "/static/js/main.49e1a3b3.js",
     "static/media/davis-gpa-analysis.png": "/static/media/davis-gpa-analysis.38a19abce7ebf6bdc513.png",
     "static/media/PixelifySans-Regular.ttf": "/static/media/PixelifySans-Regular.78dfe66b4f31904f6ee9.ttf",
     "static/media/PixelifySans-Bold.ttf": "/static/media/PixelifySans-Bold.cf9b3ee7c9f1c551e244.ttf",
-    "static/media/health-tracker-project.png": "/static/media/health-tracker-project.4899ff815327a47b95fd.png",
-    "static/media/btree.png": "/static/media/btree.470b727e3d48c5bfdc99.png",
-    "static/media/sliding-puzzle-project.png": "/static/media/sliding-puzzle-project.b1ba7ad83070c3d61a65.png",
+    "static/media/health-tracker-project.png": "/static/media/health-tracker-project.a8a4c0131fd4778ee732.png",
+    "static/media/sliding-puzzle-project.png": "/static/media/sliding-puzzle-project.09df25603859eb3c43f8.png",
     "static/media/hand-gesture-project.png": "/static/media/hand-gesture-project.6b410bf47b1819ac9c32.png",
     "index.html": "/index.html",
-    "main.e32425fb.css.map": "/static/css/main.e32425fb.css.map",
-    "main.6e4b4653.js.map": "/static/js/main.6e4b4653.js.map"
+    "main.14cb4e60.css.map": "/static/css/main.14cb4e60.css.map",
+    "main.49e1a3b3.js.map": "/static/js/main.49e1a3b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.e32425fb.css",
-    "static/js/main.6e4b4653.js"
+    "static/css/main.14cb4e60.css",
+    "static/js/main.49e1a3b3.js"
   ]
 }
