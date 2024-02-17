@@ -4,13 +4,13 @@ import Typewriter from '../components/Typewriter';
 export default function About() {
   return (
     <div>
+        <Typewriter 
+            text="Hello World, I'm Mihika!" 
+            className="typewriter" 
+            style={{ color: '#d4c7ec', fontSize: '200%', letterSpacing: '1px'}} 
+          />
       <div className="glassmorphism-effect">
         <div className="content-box">
-          <Typewriter 
-            text="Hello World, I'm Mihika !" 
-            className="typewriter" 
-            style={{ color: '#d4c7ec', fontSize: '200%' }} 
-          />
           <p style={{ letterSpacing: '1px'}}>I'm obsessed with coding. Not in a "I dream in binary" way, but more like "I love making cool stuff happen on a screen." It's where I get to flex my problem-solving muscles and let my creativity run wild.</p>
           <p>A few things about me:</p>
           <ul style={{ textAlign: 'left', color: '#d4c7ec', listStyleType: 'none'}}>
